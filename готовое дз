@@ -1,0 +1,20 @@
+balans=int(input('ваш баланс '))
+tovar=int(input('какой товар вы хотите приобрести '))
+
+tovar1=2000
+tovar2=8000
+tovar3=10000
+
+
+if(tovar==1):
+    tovar=tovar1
+elif(tovar==2):
+    tovar=tovar2
+elif(tovar==3):
+    tovar=tovar3
+
+
+if(tovar<=balans):
+    print('пройдите на кассу')
+else:
+    print('у вас не достаточно средств')
