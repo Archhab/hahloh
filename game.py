@@ -1,6 +1,8 @@
 import random
 from time import sleep
 
+side = random.randint(0,2)
+
 hp=100
 speed=0
 dist=400
@@ -14,13 +16,26 @@ while True:
     chance = random.randint(0,3)
     if chance == rock:
          print("вы столкнулись c панк рокерами")
+         a =int(input("куда вы повернёте \n ghfdj = 1 \n лево = 2  "))
+         if side = a
+         print(ЛОХ нитуда повернуд)
+         hp -= 10
+         
+
          hp-= 5
     elif chance == tree:
          print("вы столкнулись с бумагой")
-         hp-= 5
+         a =int(input("куда вы повернёте \n ghfdj = 1 \n лево = 2  "))
+         if side = a
+         print(ЛОХ нитуда повернуд)
+         hp -= 10
+         
     elif chance == yatti:
-         print("вас сьел ети")
-         hp-= 5
+         print("вы столкнулись с  ети")
+          a =int(input("куда вы повернёте \n ghfdj = 1 \n лево = 2  "))
+         if side = a
+         print(ЛОХ нитуда повернуд)
+         hp -= 10
 
      
 
@@ -30,14 +45,3 @@ while True:
     print("\nвы едите во скоросьтью",(speed), "m/s")
     print("вам осталось ехать",(dist))
     print('у вас',(hp),"жызний")
-
-
-    if(dist<=0):
-        print('Ура победа')
-        break
-    
-    
-    if(hp<=0):
-            print("ты проиграл")
-            break
-    sleep(0.5)
