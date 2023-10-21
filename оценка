@@ -1,0 +1,20 @@
+import math
+# b = int(input('введите число  '))
+# c = int(input('введите число  '))
+# d= int(input('введите число  '))
+
+# mid_num = (a+ c+ b +d)/3
+# print(round(mid_num,7))
+# mid_num = (a+ c+ b +d)
+# print(round(mid_num,7))
+
+
+a = int(input('введите число  '))
+q = 0
+sum = 0
+while a != 0:
+    sum  = sum+ a
+    print ("цикл продолжается ")
+    a= int(input("введите число А   "))
+    q = q+1
+print( "Среднее арефметическое =  ",sum/q)
