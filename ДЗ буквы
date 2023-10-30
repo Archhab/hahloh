@@ -1,0 +1,9 @@
+letters = int(input('Введите латинскую букву  '))
+if (letters == "a" or "e" or "i" or "o" or "u"):
+    print('это глассная буква')
+
+elif (letters == 'y'):
+    pint("эта буква может былть и гласной и согласной")
+
+else:
+    print("Это соглассная буква")
