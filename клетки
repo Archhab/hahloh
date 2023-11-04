@@ -1,4 +1,4 @@
-kletka1= int(input("Введите букву "))
+kletka1= input("Введите букву ")
 kletka2= int(input("Введите цифру "))
 
 a=0
