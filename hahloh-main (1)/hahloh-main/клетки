@@ -1,0 +1,61 @@
+kletka1= input("Введите букву ")
+kletka2= int(input("Введите цифру "))
+
+a=0
+b=1
+c=0
+d=1
+e=0
+f=1
+g=0
+h=1
+
+one = 1
+twe = 2
+three = 3
+four = 4
+five = 5
+six =6
+seven = 7
+eight = 8
+
+
+if (kletka1 == "a"):
+    kletka1 = a 
+
+elif (kletka1 == "b"):
+    kletka1 = b
+
+
+elif (kletka1 == "c"):
+    kletka1 = c
+
+
+elif (kletka1 == "d"):
+    kletka1 = d
+
+
+elif (kletka1 == "e"):
+    kletka1 = e
+  
+
+elif (kletka1 == "f"):
+    kletka1 = f
+
+
+elif (kletka1 == "g"):
+    kletka1 = g
+
+
+elif (kletka1 == "h"):
+    kletka1 = h
+
+
+kletka3 = kletka1 + kletka2
+
+
+
+if (kletka3%2 == 0):
+    print("Четное число")
+else:
+    print("Нечетное число")

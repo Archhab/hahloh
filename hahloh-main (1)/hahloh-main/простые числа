@@ -1,0 +1,36 @@
+# def is_prime(num):
+#     if num < 2:
+#         return False
+#     for i in range(2, int(num**0.5)+1):
+#         if num % i == 0:
+#             return False
+#         return True
+
+
+
+
+
+# number = int(input('Введите число  '))
+
+# if is_prime(number):
+#     print(f"{number} является простым числом. ")
+
+# else:
+#     print(f"{number} не является простым числом. ")
+
+
+
+import math
+
+
+num = int(input('Введите число '))
+count = 0
+for i in range(2, math. ceil):
+    if(num % i == 0 ):
+        count += 1
+if (count>0):
+    print(f"Число {num} составное")
+
+else:
+    print(f"Число {num} простое ")
+    
